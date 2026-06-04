@@ -126,10 +126,6 @@ Summarized from the [public writeups](https://www.kaggle.com/competitions/byu-lo
 
 Universal patterns: 3D models, external data, manual GT corrections, 15.6-16 Å voxel spacing, quantile thresholding, heavy augmentation, sliding-window patch inference.
 
-## License
-
-MIT (matches competition data license — see [`LICENSE`](LICENSE)).
-
 ## Acknowledgements
 
 - BYU and Kaggle for hosting.
