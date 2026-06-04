@@ -1,0 +1,20 @@
+# --- environment
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# --- competition data (not redistributable, fetch from Kaggle)
+data/
+
+# --- training artifacts (huge, regenerate via scripts/run_2d.py)
+runs/
+*.pt
+*.pth
+
+# --- TorchScript artifacts (regenerate via submission_assets/build_traced_model.py)
+submission_assets/model_a.ts
+
+# --- competition labels CSV is bundled with the data download
+train_labels.csv

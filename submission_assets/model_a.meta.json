@@ -1,0 +1,7 @@
+{
+  "in_channels": 7,
+  "target_spacing": 32.0,
+  "presence_threshold": 0.65,
+  "peak_smooth_sigma": 1.0,
+  "tta_augs": ["identity", "hflip", "vflip"]
+}
